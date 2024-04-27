@@ -350,7 +350,7 @@ absl_sources = []
 
 libraries = []
 system = platform.system().lower()
-machine = platform.machine().lower()
+machine = "armv7"
 system_cflags = []
 
 # Architecture detection was removed from rtc_base/system/arch.h
